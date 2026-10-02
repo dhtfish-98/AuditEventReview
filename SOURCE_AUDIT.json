@@ -1,0 +1,59 @@
+{
+  "upstream": "exeronn/auditd-python-parser",
+  "commit": "07c9322f54e87d5dd58992a55595a1f78813b415",
+  "runtime_files_reviewed": 2,
+  "selected_files": [
+    {
+      "path": "auditdpythonparser/auditdparser.py",
+      "sha256": "84f2672786374ce88441f2422205eec1db7eedd13c2cb4b7225a0d508518ebe0",
+      "git_blob_sha1": "bba4e3e2829e47d4afb131a31bbcfdac3a80e681",
+      "lines_read": 681,
+      "full_file_review": true
+    },
+    {
+      "path": "auditdpythonparser/__init__.py",
+      "sha256": "355d296869ba40f632e1fa40a8e08dec28559b9e49d5f0f4e780107056754b60",
+      "git_blob_sha1": "48f6fe38bc4af8ba7b981f94db1e99d1aab0fc04",
+      "lines_read": 1,
+      "full_file_review": true
+    },
+    {
+      "path": "README.rst",
+      "sha256": "1a6e0a8bab31e82f9e82698e2f66b33580b2d499c6ab782de305a953f996c076",
+      "git_blob_sha1": "31e54df369b32f1e9e659ea9cf6c5dd7d8368bfd",
+      "lines_read": 38,
+      "full_file_review": true
+    },
+    {
+      "path": "README_pypi.md",
+      "sha256": "fa1436cbafe853ac786974901d2e5a38c93cb8df8591757a0b86ba4304cfaa03",
+      "git_blob_sha1": "54faec1a497860c106132798271896991c727202",
+      "lines_read": 16,
+      "full_file_review": true
+    },
+    {
+      "path": "setup.cfg",
+      "sha256": "e604948407fe5d3ef15cc90efff76982bb50640226588cfec726a60000ea11bb",
+      "git_blob_sha1": "328ee4481099c5ea52082ebc2c40a683f82eb84d",
+      "lines_read": 22,
+      "full_file_review": true
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6544d31cf39cb7168eb1deb167226acaf87380a970d5f86fd269cc960a3b569e",
+      "git_blob_sha1": "d984fdce760d5e180e8579533b0e34dee92ea540",
+      "lines_read": 3,
+      "full_file_review": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "lines_read": 674,
+      "full_file_review": true
+    }
+  ],
+  "upstream_execution": false,
+  "whole_repository_semantic_audit": false,
+  "new_implementation": "independent byte grammar and provisional correlations; all final runtime/CLI/tests/package/CI reviewed separately"
+}

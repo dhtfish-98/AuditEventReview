@@ -1,0 +1,4 @@
+include LICENSE NOTICE README.md ORIGIN.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_AUDIT.json
+recursive-include tests *.py
+recursive-include .github *.yml
+global-exclude *.py[cod]
