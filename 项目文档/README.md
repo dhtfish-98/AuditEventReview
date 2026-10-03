@@ -1,6 +1,8 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # AuditEventReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
 
 
 Review local Linux audit log snapshots offline. This is a new bounded parser and multi-record transaction evidence ledger, with source reference to auditd-python-parser. It groups by the recorded node, exact seconds/milliseconds/serial and a caller asserted boot context. It never uses PROCTITLE as an event delimiter, executes logged commands or starts auditd/ausearch.

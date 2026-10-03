@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "project": "AuditEventReview",
+  "version": "0.1.2",
+  "implementation_author": "dhtfish98",
+  "self_excluded_to_avoid_recursive_hash": true,
+  "current_validation": "LICENSE_CLEANUP.json",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "11c841fe2d2d85b6405c0afa36f3eea6a2555e17146576d34b87f12c74a26b19",
+      "bytes": 781
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b33edf2fed6681fb43cbe0734f87658b73d5ec0671c7a587769602eb3c5be05d",
+      "bytes": 94
+    },
+    {
+      "path": "ATTRIBUTION_UPDATE.json",
+      "sha256": "a92f9ed66c6b15c1bf1d2fc353c940f048c23990c23e58d55e6e1674b8f3d189",
+      "bytes": 1051
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "decb9aaff40df1fd14b20a910ca5d2c813f4b07c090d3e0bb3e40e199f0cae14",
+      "bytes": 1444
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "path": "LICENSE_CLEANUP.json",
+      "sha256": "b80264b500cb19d9c5fa9e890ad5a7f586acc4feb818d6d8ca67f4c7cc30ab95",
+      "bytes": 751
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "357ff9c4f4514bb37cf823e66626f019c86e6915758d8f023aee0c93e2bf468d",
+      "bytes": 264
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "28266d12873bbe1ed53aed5a3d08ab535a514254348767d1e57c7de9c1e531ec",
+      "bytes": 492
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "316681ab218b32ca09133e161c39e7277aebf5abdc82f7e4e3ebdcda093200ab",
+      "bytes": 2214
+    },
+    {
+      "path": "README.md",
+      "sha256": "d18276ba2bbd02ce8c0b3aec8c11b7c4031407e1f64da275153b6367377f0b0d",
+      "bytes": 6477
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "321a87296289bc7599107e1f5737e431ad394748ab5b1cb49d522d6689772b2b",
+      "bytes": 2155
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "5367fbb121c6551ca1b543a8eb76c708a21637d5631b88dcac62d7470f71501c",
+      "bytes": 5262
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "dc578e3d7fafe58f223a531a27e60b63049fe359d6dcb45a68a55a4a7d461615",
+      "bytes": 643
+    },
+    {
+      "path": "src/audit_event_review/__init__.py",
+      "sha256": "34ed30cf41d17ec1323c3fc5fcb43aeb37d848a9195db90c597378a0463eea21",
+      "bytes": 157
+    },
+    {
+      "path": "src/audit_event_review/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/audit_event_review/cli.py",
+      "sha256": "e5cb2637f230e212cc1ab2590325e44f55c676c118817840ec68dfb19ea7bd93",
+      "bytes": 1553
+    },
+    {
+      "path": "src/audit_event_review/input.py",
+      "sha256": "7af9a6d1a5e28d129e5560039a95780cebe53d30ad84163c2985756852d5f29a",
+      "bytes": 2204
+    },
+    {
+      "path": "src/audit_event_review/parser.py",
+      "sha256": "02260e7904bae91970048b65e2c2eafaf683e102675c3e71cb31d1b3b3dd67c9",
+      "bytes": 20801
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "e6183e563d625f80dfaf4076f5a221331d1350223325e182185126ad2c5c3bba",
+      "bytes": 18991
+    },
+    {
+      "path": "tests/test_safe_read_capabilities.py",
+      "sha256": "044b07403024c493269d2effc8ce1187272cdd45b7ba07d3b120d9dfc0724dcb",
+      "bytes": 5930
+    }
+  ]
+}

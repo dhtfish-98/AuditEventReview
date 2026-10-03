@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "audit-event-review"
 version = "0.1.2"
 description = "Bounded offline Linux audit transaction and candidate process evidence"
-readme = "README.md"
+readme = "项目文档/README.md"
 requires-python = ">=3.11"
 license = "GPL-3.0-only"
-license-files = ["LICENSE", "NOTICE"]
+license-files = ["项目文档/LICENSE", "项目文档/NOTICE"]
 authors = [{name = "dhtfish98"}]
 dependencies = []
 
@@ -20,4 +20,4 @@ audit-event-review = "audit_event_review.cli:main"
 where = ["src"]
 
 [tool.setuptools.data-files]
-"share/audit-event-review" = ["ORIGIN.md", "DEFENSIVE_SCOPE.md", "VALIDATION.md", "SOURCE_AUDIT.json"]
+"share/audit-event-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_AUDIT.json"]

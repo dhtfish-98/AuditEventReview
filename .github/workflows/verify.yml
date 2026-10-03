@@ -8,10 +8,34 @@ jobs:
     strategy:
       matrix:
         python: ['3.11', '3.14']
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}/Build/源码
+    env:
+      TMPDIR: ${{ github.workspace }}/Build/临时
+      TMP: ${{ github.workspace }}/Build/临时
+      TEMP: ${{ github.workspace }}/Build/临时
+      PYTHONPYCACHEPREFIX: ${{ github.workspace }}/Build/缓存/python
+      PIP_CACHE_DIR: ${{ github.workspace }}/Build/缓存/pip
+      npm_config_cache: ${{ github.workspace }}/Build/缓存/npm
+      RUFF_CACHE_DIR: ${{ github.workspace }}/Build/缓存/ruff
+      GOCACHE: ${{ github.workspace }}/Build/缓存/go
+      GOMODCACHE: ${{ github.workspace }}/Build/缓存/go-mod
+      GOTMPDIR: ${{ github.workspace }}/Build/临时
+      GOPATH: ${{ github.workspace }}/Build/缓存/go-path
+      GOBIN: ${{ github.workspace }}/Build/输出/go-bin
+      CARGO_HOME: ${{ github.workspace }}/Build/缓存/cargo
+      XDG_CACHE_HOME: ${{ github.workspace }}/Build/缓存/xdg
+      CCACHE_DIR: ${{ github.workspace }}/Build/缓存/ccache
+      SCCACHE_DIR: ${{ github.workspace }}/Build/缓存/sccache
+      NODE_COMPILE_CACHE: ${{ github.workspace }}/Build/缓存/node
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           persist-credentials: false
+      - name: Stage source and restored project inputs under Build
+        run: ${{ runner.os == 'Windows' && 'python' || 'python3' }} 构建.py --stage --ci
+        working-directory: ${{ github.workspace }}
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
         with:
           python-version: ${{ matrix.python }}
