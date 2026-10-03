@@ -1,9 +1,10 @@
 {
   "schema": 1,
   "project": "AuditEventReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "implementation_author": "dhtfish98",
   "self_excluded_to_avoid_recursive_hash": true,
+  "current_validation": "LICENSE_CLEANUP.json",
   "files": [
     {
       "path": ".github/workflows/verify.yml",
@@ -17,8 +18,8 @@
     },
     {
       "path": "ATTRIBUTION_UPDATE.json",
-      "sha256": "ebe6d9768b5463479e8f5137b882e729628e1f24c768c2147f8b0c2ec23e42b1",
-      "bytes": 935
+      "sha256": "a92f9ed66c6b15c1bf1d2fc353c940f048c23990c23e58d55e6e1674b8f3d189",
+      "bytes": 1051
     },
     {
       "path": "DEFENSIVE_SCOPE.md",
@@ -31,19 +32,24 @@
       "bytes": 35149
     },
     {
+      "path": "LICENSE_CLEANUP.json",
+      "sha256": "b80264b500cb19d9c5fa9e890ad5a7f586acc4feb818d6d8ca67f4c7cc30ab95",
+      "bytes": 751
+    },
+    {
       "path": "MANIFEST.in",
-      "sha256": "96ea3f41f5f9a5bb1b0fda323e57de893483271c249de6a9dc1a340a35fad1e1",
-      "bytes": 234
+      "sha256": "357ff9c4f4514bb37cf823e66626f019c86e6915758d8f023aee0c93e2bf468d",
+      "bytes": 264
     },
     {
       "path": "NOTICE",
-      "sha256": "e626e36826a99357903bd479500b2cb0df54707cc683ffe61cb1d1f401e69b28",
-      "bytes": 606
+      "sha256": "28266d12873bbe1ed53aed5a3d08ab535a514254348767d1e57c7de9c1e531ec",
+      "bytes": 492
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "dcb9ae87ff7d2d6b8a1609706f5682d4a4a92cde5b300526eb279ea79b55a8d5",
-      "bytes": 2157
+      "sha256": "316681ab218b32ca09133e161c39e7277aebf5abdc82f7e4e3ebdcda093200ab",
+      "bytes": 2214
     },
     {
       "path": "README.md",
@@ -57,17 +63,17 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "10cb0768948ad6d3f08ccec51f18739d3cecd93f2954e036bd77b4f508bfab8d",
-      "bytes": 4163
+      "sha256": "5367fbb121c6551ca1b543a8eb76c708a21637d5631b88dcac62d7470f71501c",
+      "bytes": 5262
     },
     {
       "path": "pyproject.toml",
-      "sha256": "0b84e2bfaadde29413712c5bff3b773b8cfd5a42f0009826bb7ae152b5cbb99a",
+      "sha256": "dc578e3d7fafe58f223a531a27e60b63049fe359d6dcb45a68a55a4a7d461615",
       "bytes": 643
     },
     {
       "path": "src/audit_event_review/__init__.py",
-      "sha256": "c6725506dff99b92371d2f28960a877c55b5f8212ede960e48123ef9fafa8ff8",
+      "sha256": "34ed30cf41d17ec1323c3fc5fcb43aeb37d848a9195db90c597378a0463eea21",
       "bytes": 157
     },
     {

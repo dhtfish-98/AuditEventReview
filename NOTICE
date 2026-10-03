@@ -1,9 +1,9 @@
-Copyright 2026 dhtfish98.
-AuditEventReview, new implementation by dhtfish98 (2026-10-02).
-Source mechanism reference: exeron / auditd-python-parser, version 0.0.9,
-fixed Git commit 07c9322f54e87d5dd58992a55595a1f78813b415.
-The original complete GPL-3 license text is retained unchanged in LICENSE.
-New design replaces upstream event splitting and synthetic GUID assumptions;
-it does not claim upstream endorsement or transfer authorship to an applicant.
-Distributed under GPL-3.0-only. No warranty. Corresponding source and tests
-are supplied alongside distributions in the sdist and published repository.
+AuditEventReview
+Copyright 2026 dhtfish98. New finite audit-event implementation, GPL-3.0-only.
+Corresponding source/tests and the complete current GPL license accompany the
+project distribution. The FSF copyright in the GPL text identifies the license
+document, not the author of this runtime.
+
+Mechanism reference: exeronn/auditd-python-parser at
+07c9322f54e87d5dd58992a55595a1f78813b415. No original runtime or pandas
+implementation is bundled. Source facts and scope remain in ORIGIN.md.

@@ -9,5 +9,8 @@
   "functional_change": "Required safe-file flags remain exact positive integers. Directory-relative support must be a set/frozenset containing the operations actually used before any open; malformed, missing or incomplete support yields existing controlled unsupported results.",
   "current_source_manifest": "SOURCE_MANIFEST.json",
   "upstream_notices": "Original upstream licenses and notice content retained; PDF public-domain declaration unchanged while the project-owned appended attribution sentence is updated.",
-  "historical_validation": "VALIDATION.md historical section; prior version records retained."
+  "historical_validation": "VALIDATION.md historical section; prior version records retained.",
+  "historical_record": true,
+  "historical_version": "0.1.1",
+  "current_licensing_record": "LICENSE_CLEANUP.json"
 }

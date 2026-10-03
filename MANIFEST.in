@@ -4,3 +4,5 @@ recursive-include .github *.yml
 global-exclude *.py[cod]
 
 include SOURCE_MANIFEST.json ATTRIBUTION_UPDATE.json
+
+include LICENSE_CLEANUP.json
