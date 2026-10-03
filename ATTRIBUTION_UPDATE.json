@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "project": "AuditEventReview",
+  "version": "0.1.1",
+  "implementation_author": "dhtfish98",
+  "status": "PASS",
+  "local_unittest_count": 34,
+  "scope": "Fresh local installed-wheel unittest/CLI/package/runtime/notice checks; remote publication and new hosted/native-platform CI remain separate.",
+  "functional_change": "Required safe-file flags remain exact positive integers. Directory-relative support must be a set/frozenset containing the operations actually used before any open; malformed, missing or incomplete support yields existing controlled unsupported results.",
+  "current_source_manifest": "SOURCE_MANIFEST.json",
+  "upstream_notices": "Original upstream licenses and notice content retained; PDF public-domain declaration unchanged while the project-owned appended attribution sentence is updated.",
+  "historical_validation": "VALIDATION.md historical section; prior version records retained."
+}

@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-only
-# New AI-assisted implementation, 2026-10-02. See ORIGIN.md and LICENSE.
+# New implementation author: dhtfish98. See ORIGIN.md and LICENSE.
 """Bounded local audit-record grammar and provisional transaction correlation."""
 
 from dataclasses import asdict, dataclass

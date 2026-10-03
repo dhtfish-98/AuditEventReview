@@ -1,5 +1,8 @@
 # AuditEventReview
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 Review local Linux audit log snapshots offline. This is a new bounded parser and multi-record transaction evidence ledger, with source reference to auditd-python-parser. It groups by the recorded node, exact seconds/milliseconds/serial and a caller asserted boot context. It never uses PROCTITLE as an event delimiter, executes logged commands or starts auditd/ausearch.
 
 ```sh
@@ -33,4 +36,6 @@ Reports retain each original physical record's SHA-256, snapshot index, line and
 
 Limits are explicit and can be lowered: 4 MiB per snapshot, 8 MiB total, 16 snapshots, 4096 records, 64 KiB per line, 256 fields, 1024 events, 128 arguments/PATH items, 32 parent candidates and 4 MiB JSON. All values are typed positive integers within defaults, with at least 4096 report bytes. Report overflow emits a compact OPEN summary, not silent truncation. This is bounded in-process parsing, not an OS sandbox.
 
-Python 3.11+; no third-party runtime dependency. See ORIGIN.md, DEFENSIVE_SCOPE.md, SOURCE_AUDIT.json and VALIDATION.md for fixed-source attribution, boundaries and measured checks. GPL-3.0-only; complete license/source accompany distributions. The implementation/tests/docs were produced with Codex assistance; independent applicant contribution and CVP approval are not established by this repository.
+Python 3.11+; no third-party runtime dependency. See ORIGIN.md, DEFENSIVE_SCOPE.md, SOURCE_AUDIT.json and VALIDATION.md for fixed-source attribution, boundaries and measured checks. GPL-3.0-only; complete license/source accompany distributions. New implementation author: dhtfish98; independent applicant contribution and CVP approval are not established by this repository.
+
+Safe local file input requires positive integer `O_NOFOLLOW`, `O_DIRECTORY`, `O_NONBLOCK` flags, plus directory-relative operations only where used by this reader. Missing, None, zero or boolean flags return the existing controlled unsupported/error result before opening input. File-reader validation covers macOS/Linux; native Windows safe file reading is not established.

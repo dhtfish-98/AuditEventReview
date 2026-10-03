@@ -6,10 +6,12 @@ import stat
 
 
 def read_regular_file(path, maximum):
+    dir_fd_support = getattr(os, "supports_dir_fd", None)
     if (
         os.name != "posix"
-        or os.open not in os.supports_dir_fd
-        or not all(hasattr(os, n) for n in ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK"))
+        or type(dir_fd_support) not in (set, frozenset)
+        or os.open not in dir_fd_support
+        or any(type(getattr(os, n, None)) is not int or getattr(os, n, None) <= 0 for n in ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK"))
     ):
         raise ValueError("safe_read_unavailable")
     path = os.fspath(path)

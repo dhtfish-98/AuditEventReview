@@ -1,4 +1,5 @@
-AuditEventReview, new AI-assisted implementation (2026-10-02).
+Copyright 2026 dhtfish98.
+AuditEventReview, new implementation by dhtfish98 (2026-10-02).
 Source mechanism reference: exeron / auditd-python-parser, version 0.0.9,
 fixed Git commit 07c9322f54e87d5dd58992a55595a1f78813b415.
 The original complete GPL-3 license text is retained unchanged in LICENSE.
