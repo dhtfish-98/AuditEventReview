@@ -6,6 +6,11 @@
   "base_public_commit": "800dc81540694a33fb57d1112a79796f4c50181a",
   "restored_inputs": [
     {
+      "original": "ATTRIBUTION_UPDATE.json",
+      "stored": "项目文档/ATTRIBUTION_UPDATE.json",
+      "sha256": "a92f9ed66c6b15c1bf1d2fc353c940f048c23990c23e58d55e6e1674b8f3d189"
+    },
+    {
       "original": "DEFENSIVE_SCOPE.md",
       "stored": "项目文档/DEFENSIVE_SCOPE.md",
       "sha256": "decb9aaff40df1fd14b20a910ca5d2c813f4b07c090d3e0bb3e40e199f0cae14"
@@ -34,6 +39,11 @@
       "original": "README.md",
       "stored": "项目文档/README.md",
       "sha256": "1bb793bf77471e57753a69718920bf09575673c8823729e9aaedef402343f496"
+    },
+    {
+      "original": "SOURCE_AUDIT.json",
+      "stored": "项目文档/SOURCE_AUDIT.json",
+      "sha256": "321a87296289bc7599107e1f5737e431ad394748ab5b1cb49d522d6689772b2b"
     },
     {
       "original": "VALIDATION.md",

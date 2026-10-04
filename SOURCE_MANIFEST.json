@@ -17,24 +17,14 @@
       "bytes": 208
     },
     {
-      "path": "ATTRIBUTION_UPDATE.json",
-      "sha256": "a92f9ed66c6b15c1bf1d2fc353c940f048c23990c23e58d55e6e1674b8f3d189",
-      "bytes": 1051
-    },
-    {
       "path": "MANIFEST.in",
-      "sha256": "7ccec3c84e1cf8c60d51bdd8ee96e8c804379c9675600f5fbd533467c449a0ea",
-      "bytes": 859
-    },
-    {
-      "path": "SOURCE_AUDIT.json",
-      "sha256": "321a87296289bc7599107e1f5737e431ad394748ab5b1cb49d522d6689772b2b",
-      "bytes": 2155
+      "sha256": "66650239118b9d98fd173663cc01c3c241cc0e017daede32ef38f618d804e84b",
+      "bytes": 885
     },
     {
       "path": "pyproject.toml",
-      "sha256": "1c0d8f02b87be56f57466791b8ca2a30abed13d50758666b476f965370b04ee7",
-      "bytes": 721
+      "sha256": "200f18200fbbca940fba2290bda54e1eb80e4d11000b4726667a54c9378873fc",
+      "bytes": 734
     },
     {
       "path": "src/audit_event_review/__init__.py",
@@ -77,9 +67,14 @@
       "path": "构建.py"
     },
     {
-      "sha256": "ce17066cd0c31bba9d99935d9cfb32b2c6428f1a58ac73008f6af5f4c88cbac3",
-      "bytes": 1462,
+      "sha256": "4c80f5e5cdd517616680157f01c2708cf6567227b528109bdd4ed1d44a221c81",
+      "bytes": 1844,
       "path": "构建配置.json"
+    },
+    {
+      "path": "项目文档/ATTRIBUTION_UPDATE.json",
+      "sha256": "a92f9ed66c6b15c1bf1d2fc353c940f048c23990c23e58d55e6e1674b8f3d189",
+      "bytes": 1051
     },
     {
       "path": "项目文档/DEFENSIVE_SCOPE.md",
@@ -110,6 +105,11 @@
       "path": "项目文档/README.md",
       "sha256": "1bb793bf77471e57753a69718920bf09575673c8823729e9aaedef402343f496",
       "bytes": 6832
+    },
+    {
+      "path": "项目文档/SOURCE_AUDIT.json",
+      "sha256": "321a87296289bc7599107e1f5737e431ad394748ab5b1cb49d522d6689772b2b",
+      "bytes": 2155
     },
     {
       "path": "项目文档/VALIDATION.md",

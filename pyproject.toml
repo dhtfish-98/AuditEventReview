@@ -20,4 +20,4 @@ audit-event-review = "audit_event_review.cli:main"
 where = ["src"]
 
 [tool.setuptools.data-files]
-"share/audit-event-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_AUDIT.json"]
+"share/audit-event-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "项目文档/SOURCE_AUDIT.json"]
