@@ -1,6 +1,6 @@
 # Origin and changes
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
 
 
 Reference: [exeronn/auditd-python-parser at 07c9322f54e87d5dd58992a55595a1f78813b415](https://github.com/exeronn/auditd-python-parser/tree/07c9322f54e87d5dd58992a55595a1f78813b415). Both complete runtime files, package metadata, README files and GPL-3 license were read. SOURCE_AUDIT.json records hashes and fixed Git blob identities. Upstream image examples and unrelated repository files are not claimed semantically audited. No upstream code or tests were executed; pandas is not a new runtime dependency.

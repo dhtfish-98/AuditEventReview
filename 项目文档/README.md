@@ -2,7 +2,7 @@
 
 # AuditEventReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
 
 
 Review local Linux audit log snapshots offline. This is a new bounded parser and multi-record transaction evidence ledger, with source reference to auditd-python-parser. It groups by the recorded node, exact seconds/milliseconds/serial and a caller asserted boot context. It never uses PROCTITLE as an event delimiter, executes logged commands or starts auditd/ausearch.
